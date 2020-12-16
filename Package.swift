@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // HTTP client library built on SwiftNIO
-        .package(url: "https://github.com/swift-server/async-http-client", from: "1.2.0"),
+        .package(url: "https://github.com/0xTim/async-http-client", from: "1.2.0"),
     
         // Sugary extensions for the SwiftNIO library
         .package(url: "https://github.com/vapor/async-kit", from: "1.0.0"),
