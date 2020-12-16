@@ -16,10 +16,10 @@ let package = Package(
         .package(url: "https://github.com/0xTim/async-http-client", from: "1.2.0"),
     
         // Sugary extensions for the SwiftNIO library
-        .package(url: "https://github.com/vapor/async-kit", from: "1.0.0"),
+        .package(url: "https://github.com/0xTim/async-kit", from: "1.0.0"),
 
         // 💻 APIs for creating interactive CLI tools.
-        .package(url: "https://github.com/vapor/console-kit", from: "4.0.0"),
+        .package(url: "https://github.com/0xTim/console-kit", from: "4.0.0"),
 
         // 🔑 Hashing (BCrypt, SHA2, HMAC), encryption (AES), public-key (RSA), and random data generation.
         .package(url: "https://github.com/apple/swift-crypto", from: "1.0.0"),
@@ -49,7 +49,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-metrics", from: "2.0.0"),
 
         // WebSocket client library built on SwiftNIO
-        .package(url: "https://github.com/vapor/websocket-kit", from: "2.0.0"),
+        .package(url: "https://github.com/0xTim/websocket-kit", from: "2.0.0"),
     ],
     targets: [
         // C helpers
